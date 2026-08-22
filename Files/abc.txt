@@ -1,0 +1,7 @@
+1) host your web pages  - 
+
+2) find out url to get accessed from outside 
+
+3) find out something which makes your pages to deploy automatically. from vs code to that deployment server
+
+4) as soon I change auto deploy
