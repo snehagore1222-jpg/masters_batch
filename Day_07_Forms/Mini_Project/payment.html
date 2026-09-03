@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment</title>
+</head>
+
+<body>
+
+    <h1>Payment</h1>
+
+    <form action="feedback.html">
+
+        <label>Payment Method:</label>
+        <br><br>
+
+        <input type="radio" name="payment" value="Card" required>
+        <label>Credit / Debit Card</label>
+
+        <br>
+
+        <input type="radio" name="payment" value="UPI">
+        <label>UPI</label>
+
+        <br>
+
+        <input type="radio" name="payment" value="Cash">
+        <label>Cash on Delivery</label>
+
+        <br><br>
+
+        <label>Card / UPI Details:</label>
+        <br>
+        <input type="text" name="paymentDetails"
+               placeholder="Enter card number or UPI ID">
+        <br><br>
+
+        <input type="checkbox" name="terms" required>
+        <label>I agree to the Terms & Conditions</label>
+
+        <br><br>
+
+        <input type="submit" value="Place Order">
+
+    </form>
+
+</body>
+</html>

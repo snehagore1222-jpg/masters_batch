@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Feedback Form</title>
+</head>
+
+<body>
+
+    <h1>Employee Feedback Form</h1>
+
+    <form>
+
+        <!-- Employee Name -->
+        <label>Employee Name:</label>
+        <input type="text"  name="employeeName"  placeholder="Enter employee name"  required>
+        <br><br>
+
+        <!-- Department -->
+        <label>Department:</label>
+        <select name="department" required>
+            <option value="">-- Select Department --</option>
+            <option value="IT">IT</option>
+            <option value="HR">HR</option>
+            <option value="Finance">Finance</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Sales">Sales</option>
+        </select>
+
+        <br><br>
+
+        <!-- Job Satisfaction -->
+        <label>Job Satisfaction:</label>
+
+        <input type="radio" name="jobSatisfaction" value="Excellent" required>
+        Excellent
+
+        <input type="radio" name="jobSatisfaction" value="Good">
+        Good
+
+        <input type="radio" name="jobSatisfaction" value="Average">
+        Average
+
+        <input type="radio" name="jobSatisfaction" value="Poor">
+        Poor
+
+        <br><br>
+
+        <!-- Work Environment -->
+        <label>Work Environment:</label>
+
+        <input type="radio"  name="workEnvironment"  value="Excellent"  required>
+        Excellent
+
+        <input type="radio"  name="workEnvironment"  value="Good">
+        Good
+
+        <input type="radio"  name="workEnvironment"  value="Average">
+        Average
+
+        <input type="radio"  name="workEnvironment"  value="Poor">
+        Poor
+
+        <br><br>
+
+        <!-- Management Support -->
+        <label>Management Support:</label>
+
+        <input type="radio"  name="managementSupport"  value="Excellent"  required>
+        Excellent
+
+        <input type="radio"  name="managementSupport"  value="Good">
+        Good
+
+        <input type="radio" name="managementSupport" value="Average">
+        Average
+
+        <input type="radio"  name="managementSupport"  value="Poor">
+        Poor
+
+        <br><br>
+
+        <!-- Training Satisfaction -->
+        <label>Training Satisfaction:</label>
+
+        <input type="radio" name="trainingSatisfaction" value="Excellent" required>
+        Excellent
+
+        <input type="radio" name="trainingSatisfaction" value="Good">
+        Good
+
+        <input type="radio" name="trainingSatisfaction" value="Average">
+        Average
+
+        <input type="radio" name="trainingSatisfaction" value="Poor">
+        Poor
+
+        <br><br>
+
+        <!-- Suggestions -->
+        <label>Suggestions:</label>
+        <br>
+
+        <textarea name="suggestions"  rows="5"  cols="40"  placeholder="Enter your suggestions"></textarea>
+        <br><br>
+
+        <!-- Anonymous Feedback -->
+        <input type="checkbox" name="anonymousFeedback" value="Yes">
+        <label>Submit this feedback anonymously</label>
+
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+        <!-- Reset Button -->
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>

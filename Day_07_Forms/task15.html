@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Booking Form</title>
+</head>
+
+<body>
+
+    <h1>Hotel Booking Form</h1>
+
+    <form>
+
+        <!-- Guest Name -->
+        <label>Guest Name:</label>
+        <input type="text" name="guestName" placeholder="Enter guest name" required>
+        <br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Mobile -->
+        <label>Mobile:</label>
+        <input type="tel" name="mobile" placeholder="Enter your mobile number" required>
+        <br><br>
+
+        <!-- Check-in Date -->
+        <label>Check-in Date:</label>
+        <input type="date"  name="checkin" required>
+        <br><br>
+
+        <!-- Check-out Date -->
+        <label>Check-out Date:</label>
+        <input type="date" name="checkout" required>
+        <br><br>
+
+        <!-- Number of Guests -->
+        <label>Number of Guests:</label>
+        <input type="number" name="guests" min="1" max="10" placeholder="Enter number of guests" required>
+        <br><br>
+
+        <!-- Room Type -->
+        <label>Room Type:</label>
+        <select name="roomType" required>
+            <option value="">-- Select Room Type --</option>
+            <option value="Single">Single Room</option>
+            <option value="Double">Double Room</option>
+            <option value="Deluxe">Deluxe Room</option>
+            <option value="Suite">Suite</option>
+        </select>
+
+        <br><br>
+
+        <!-- Meal Preference -->
+        <label>Meal Preference:</label>
+        <br>
+        <input type="radio" name="meal" value="Breakfast" required>
+        Breakfast
+        <br>
+
+        <input type="radio" name="meal" value="Half Board">
+        Half Board
+        <br>
+
+        <input type="radio" name="meal" value="Full Board">
+        Full Board
+        <br>
+
+        <input type="radio"  name="meal"  value="No Meal">
+        No Meal
+        <br><br>
+
+        <!-- Special Requests -->
+        <label>Special Requests:</label>
+        <br>
+        <textarea name="requests" rows="5" cols="40" placeholder="Enter any special requests"></textarea>
+        <br><br>
+
+        <!-- Book Now Button -->
+        <input type="submit" value="Book Now">
+
+    </form>
+</body>
+</html>

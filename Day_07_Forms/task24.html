@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Exam Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Online Exam Registration Form</h1>
+
+    <form>
+
+        <!-- Student Name -->
+        <label>Student Name:</label>
+        <input type="text" name="studentName" placeholder="Enter student name" required>
+        <br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter email address"  required>
+        <br><br>
+
+        <!-- Mobile -->
+        <label>Mobile:</label>
+        <input type="tel" name="mobile" placeholder="Enter mobile number"  required>
+        <br><br>
+
+        <!-- Roll Number -->
+        <label>Roll Number:</label>
+        <input type="text" name="rollNumber" placeholder="Enter roll number" required>
+        <br><br>
+
+        <!-- Course -->
+        <label>Course:</label>
+        <select name="course" required>
+            <option value="">-- Select Course --</option>
+            <option value="BSc CS">BSc Computer Science</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="BE">BE</option>
+            <option value="BTech">BTech</option>
+            <option value="MCA">MCA</option>
+        </select>
+
+        <br><br>
+
+        <!-- Semester -->
+        <label>Semester:</label>
+        <select name="semester" required>
+            <option value="">-- Select Semester --</option>
+            <option value="Semester 1">Semester 1</option>
+            <option value="Semester 2">Semester 2</option>
+            <option value="Semester 3">Semester 3</option>
+            <option value="Semester 4">Semester 4</option>
+            <option value="Semester 5">Semester 5</option>
+            <option value="Semester 6">Semester 6</option>
+        </select>
+
+        <br><br>
+
+        <!-- Subject -->
+        <label>Subject:</label>
+        <select name="subject" required>
+            <option value="">-- Select Subject --</option>
+            <option value="Java">Java</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Database">Database</option>
+            <option value="Python">Python</option>
+        </select>
+
+        <br><br>
+
+        <!-- Exam Center -->
+        <label>Exam Center:</label>
+        <select name="examCenter" required>
+            <option value="">-- Select Exam Center --</option>
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Nashik">Nashik</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Aurangabad">Aurangabad</option>
+        </select>
+
+        <br><br>
+
+        <!-- Exam Date -->
+        <label>Exam Date:</label>
+        <input type="date" name="examDate" required>
+        <br><br>
+
+        <!-- Declaration -->
+        <input type="checkbox"  name="declaration"  value="accepted"  required>
+
+        <label>
+            I declare that the information provided by me is correct.
+        </label>
+
+        <br><br>
+
+        <!-- Register Button -->
+        <input type="submit"  value="Register">
+
+        <!-- Reset Button -->
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>

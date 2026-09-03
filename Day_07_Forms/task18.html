@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Table Booking Form</title>
+</head>
+
+<body>
+
+    <h1>Restaurant Table Booking Form</h1>
+
+    <form>
+
+        <!-- Customer Name -->
+        <label>Customer Name:</label>
+        <input type="text" name="customerName" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- Mobile -->
+        <label>Mobile:</label>
+        <input type="tel" name="mobile" placeholder="Enter your mobile number" required>
+        <br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email"  name="email"  placeholder="Enter your email"  required>
+        <br><br>
+
+        <!-- Date -->
+        <label>Date:</label>
+        <input type="date" name="date" required>
+        <br><br>
+
+        <!-- Time -->
+        <label>Time:</label>
+        <input type="time" name="time" required>
+        <br><br>
+
+        <!-- Number of Guests -->
+        <label>Number of Guests:</label>
+        <input type="number" name="guests" min="1" max="20" placeholder="Enter number of guests" required>
+        <br><br>
+
+        <!-- Seating Preference -->
+        <label>Seating Preference:</label>
+        <br>
+
+        <input type="radio" name="seating" value="Indoor" required>
+        Indoor
+
+        <input type="radio" name="seating" value="Outdoor">
+        Outdoor
+
+        <input type="radio" name="seating" value="Window">
+        Window
+       <br><br>
+
+        <!-- Special Request -->
+        <label>Special Request:</label>
+        <br>
+
+        <textarea name="specialRequest"  rows="5"  cols="40"  placeholder="Enter any special request"></textarea>
+        <br><br>
+
+        <!-- Reserve Table Button -->
+        <input type="submit" value="Reserve Table">
+
+    </form>
+
+</body>
+</html>

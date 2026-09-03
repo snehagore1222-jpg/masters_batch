@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Booking Form</title>
+</head>
+
+<body>
+
+    <h1>Travel Booking Form</h1>
+
+    <form>
+
+        <!-- Passenger Name -->
+        <label>Passenger Name:</label>
+        <input type="text" name="passengerName" placeholder="Enter passenger name" required>
+        <br><br>
+
+        <!-- From -->
+        <label>From:</label>
+        <input type="text" name="from" placeholder="Enter starting place" required>
+        <br><br>
+
+        <!-- To -->
+        <label>To:</label>
+        <input type="text" name="to" placeholder="Enter destination" required>
+        <br><br>
+
+        <!-- Journey Date -->
+        <label>Journey Date:</label>
+        <input type="date" name="journeyDate" required>
+        <br><br>
+
+        <!-- Number of Passengers -->
+        <label>Number of Passengers:</label>
+        <input type="number" name="passengers" min="1" max="10" placeholder="Enter number of passengers" required>
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <br>
+        <input type="radio" name="gender" value="Male" required>
+        Male
+
+        <input type="radio" name="gender" value="Female">
+        Female
+
+        <input type="radio" name="gender" value="Other">
+        Other
+        <br><br>
+
+        <!-- Seat Preference -->
+        <label>Seat Preference:</label>
+        <br>
+
+        <input type="radio" name="seatPreference" value="Window" required>
+        Window
+
+        <input type="radio" name="seatPreference" value="Aisle">
+        Aisle
+
+        <input type="radio" name="seatPreference" value="Any">
+        Any
+       <br><br>
+
+        <!-- Travel Class -->
+        <label>Travel Class:</label>
+        <select name="travelClass" required>
+            <option value="">-- Select Travel Class --</option>
+            <option value="Economy">Economy</option>
+            <option value="AC">AC</option>
+            <option value="Sleeper">Sleeper</option>
+            <option value="First Class">First Class</option>
+        </select>
+
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

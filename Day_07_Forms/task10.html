@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insurance Enquiry Form</title>
+</head>
+
+<body>
+
+    <h1>Insurance Enquiry Form</h1>
+
+    <form>
+
+        <!-- Customer Name -->
+        <label>Customer Name:</label>
+        <input type="text" name="customername" placeholder="Enter your full name" required>
+        <br><br>
+
+        <!-- Age -->
+        <label>Age:</label>
+        <input type="number" name="age" min="18" max="100" placeholder="Enter your age" required>
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <br>
+         <input type="radio" name="gender" value="Male" required>
+        <label>Male</label>
+
+        <input type="radio" name="gender" value="Female">
+        <label>Female</label>
+
+        <input type="radio" name="gender" value="Other">
+        <label>Other</label>
+        <br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Mobile -->
+        <label>Mobile:</label>
+        <input type="tel" name="mobile" placeholder="Enter your mobile number" required>
+        <br><br>
+
+        <!-- Insurance Type -->
+        <label>Insurance Type:</label>
+        <br>
+        <input type="radio" name="insurancetype" value="Health"  required>
+        <label>Health</label>
+
+        <input type="radio" name="insurancetype" value="Life">
+        <label>Life</label>
+
+        <input type="radio" name="insurancetype" value="Vehicle">
+        <label>Vehicle</label>
+
+        <input type="radio" name="insurancetype" value="Travel">
+        <label>Travel</label>
+        <br><br>
+
+        <!-- Occupation -->
+        <label>Occupation:</label>
+        <input type="text"  name="occupation"  placeholder="Enter your occupation" required>
+        <br><br>
+
+        <!-- City -->
+        <label>City:</label>
+        <input type="text" name="city" placeholder="Enter your city" required>
+        <br><br>
+
+        <!-- Message -->
+        <label>Message:</label>
+        <br>
+         <textarea name="message" rows="5" cols="40" placeholder="Enter your enquiry or message" required></textarea>
+        <br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

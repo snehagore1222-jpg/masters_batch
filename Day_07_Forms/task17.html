@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Appointment Form</title>
+</head>
+
+<body>
+
+    <h1>Doctor Appointment Form</h1>
+
+    <form>
+
+        <!-- Patient Name -->
+        <label>Patient Name:</label>
+        <input type="text" name="patientName" placeholder="Enter patient name" required>
+        <br><br>
+
+        <!-- Age -->
+        <label>Age:</label>
+        <input type="number" name="age" min="1" max="120" placeholder="Enter your age" required>
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <br>
+
+        <input type="radio" name="gender" value="Male" required>
+        Male
+
+        <input type="radio" name="gender" value="Female">
+        Female
+
+        <input type="radio" name="gender" value="Other">
+        Other
+        <br><br>
+
+        <!-- Mobile -->
+        <label>Mobile:</label>
+        <input type="tel"  name="mobile"  placeholder="Enter your mobile number"  required>
+        <br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email"  name="email"  placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Department -->
+        <label>Department:</label>
+        <select name="department" required>
+            <option value="">-- Select Department --</option>
+            <option value="Cardiology">Cardiology</option>
+            <option value="Dermatology">Dermatology</option>
+            <option value="Neurology">Neurology</option>
+            <option value="Orthopedics">Orthopedics</option>
+            <option value="General Medicine">General Medicine</option>
+        </select>
+
+        <br><br>
+
+        <!-- Doctor -->
+        <label>Doctor:</label>
+        <select name="doctor" required>
+            <option value="">-- Select Doctor --</option>
+            <option value="Dr. Amit Sharma">Dr. Amit Sharma</option>
+            <option value="Dr. Priya Patil">Dr. Priya Patil</option>
+            <option value="Dr. Rahul Verma">Dr. Rahul Verma</option>
+            <option value="Dr. Sneha Joshi">Dr. Sneha Joshi</option>
+        </select>
+
+        <br><br>
+
+        <!-- Appointment Date -->
+        <label>Appointment Date:</label>
+        <input type="date" name="appointmentDate" required>
+        <br><br>
+
+        <!-- Appointment Time -->
+        <label>Appointment Time:</label>
+        <input type="time" name="appointmentTime" required>
+        <br><br>
+
+        <!-- Problem Description -->
+        <label>Problem Description:</label>
+        <br>
+
+        <textarea name="problem"  rows="5"  cols="40"  placeholder="Describe your problem"  required></textarea>
+        <br><br>
+
+        <!-- Book Appointment Button -->
+        <input type="submit" value="Book Appointment">
+
+    </form>
+
+</body>
+</html>

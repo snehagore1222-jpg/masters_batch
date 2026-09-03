@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <!-- Full Name -->
+        <label>Full Name:</label>
+        <input type="text" name="fullname" placeholder="Enter your full name" required>
+        <br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Password -->
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <!-- Mobile Number -->
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile" placeholder="Enter your mobile number" required>
+        <br><br>
+
+        <!-- Age -->
+        <label>Age:</label>
+        <input type="number" name="age" min="18" max="60" placeholder="Enter your age">
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+
+        <input type="radio" name="gender" value="Male">
+        <label>Male</label>
+
+        <input type="radio" name="gender" value="Female">
+        <label>Female</label>
+
+        <input type="radio" name="gender" value="Other">
+        <label>Other</label>
+
+        <br><br>
+
+        <!-- Course -->
+        <label>Course:</label>
+
+        <select name="course">
+            <option value="">-- Select Course --</option>
+            <option value="BSc CS">BSc Computer Science</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+            <option value="BBA">BBA</option>
+        </select>
+
+        <br><br>
+
+        <!-- Address -->
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="5" cols="40"
+            placeholder="Enter your address"></textarea>
+
+        <br><br>
+
+        <!-- Skills -->
+        <label>Skills:</label>
+
+        <input type="checkbox" name="skills" value="HTML">
+        <label>HTML</label>
+
+        <input type="checkbox" name="skills" value="CSS">
+        <label>CSS</label>
+
+        <input type="checkbox" name="skills" value="Java">
+        <label>Java</label>
+
+        <input type="checkbox" name="skills" value="JavaScript">
+        <label>JavaScript</label>
+
+        <br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Register">
+
+        <!-- Reset -->
+        <input type="reset" value="Clear">
+
+    </form>
+</body>
+</html>

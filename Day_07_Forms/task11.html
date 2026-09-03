@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Search Form</title>
+</head>
+
+<body>
+
+    <h1>Product Search</h1>
+
+    <form>
+
+        <!-- Search Product -->
+        <label>Search Product:</label>
+        <input type="search"  name="product"  placeholder="Search for a product"  required>
+        <br><br>
+
+        <!-- Category -->
+        <label>Category:</label>
+
+        <select name="category">
+            <option value="">-- Select Category --</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Clothing">Clothing</option>
+            <option value="Mobiles">Mobiles</option>
+            <option value="Laptops">Laptops</option>
+            <option value="Shoes">Shoes</option>
+            <option value="Books">Books</option>
+        </select>
+
+        <br><br>
+
+        <!-- Brand -->
+        <label>Brand:</label>
+
+        <select name="brand">
+            <option value="">-- Select Brand --</option>
+            <option value="Apple">Apple</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Nike">Nike</option>
+            <option value="Adidas">Adidas</option>
+            <option value="Dell">Dell</option>
+            <option value="HP">HP</option>
+        </select>
+
+        <br><br>
+
+        <!-- Minimum Price -->
+        <label>Minimum Price:</label>
+        <input type="number" name="minprice" min="0" placeholder="Enter minimum price">
+        <br><br>
+
+        <!-- Maximum Price -->
+        <label>Maximum Price:</label>
+        <input type="number"  name="maxprice"  min="0"  placeholder="Enter maximum price">
+        <br><br>
+
+        <!-- Search Button -->
+        <input type="submit" value="Search">
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Event Registration Form</h1>
+
+    <form>
+
+        <!-- Participant Name -->
+        <label>Participant Name:</label>
+        <input type="text" name="participantName" placeholder="Enter participant name" required>
+        <br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Mobile -->
+        <label>Mobile:</label>
+        <input type="tel" name="mobile" placeholder="Enter your mobile number" required>
+        <br><br>
+
+        <!-- Event Type -->
+        <label>Event Type:</label>
+        <select name="eventType" required>
+            <option value="">-- Select Event Type --</option>
+            <option value="Workshop">Workshop</option>
+            <option value="Seminar">Seminar</option>
+            <option value="Conference">Conference</option>
+            <option value="Cultural Event">Cultural Event</option>
+            <option value="Sports Event">Sports Event</option>
+        </select>
+
+        <br><br>
+
+        <!-- Date -->
+        <label>Date:</label>
+        <input type="date"  name="eventDate"  required>
+        <br><br>
+
+        <!-- Number of Participants -->
+        <label>Number of Participants:</label>
+        <input type="number"  name="participants"  min="1"  max="50"  placeholder="Enter number of participants"  required>
+        <br><br>
+
+        <!-- Participation Type -->
+        <label>Participation Type:</label>
+        <br>
+
+        <input type="radio"  name="participationType"  value="Individual"  required>
+        Individual
+
+        <input type="radio" name="participationType" value="Group">
+        Group
+
+        <br><br>
+
+        <!-- Requirements -->
+        <label>Requirements:</label>
+        <br>
+
+        <textarea name="requirements" rows="5" cols="40" placeholder="Enter any special requirements"></textarea>
+        <br><br>
+
+        <!-- Terms & Conditions -->
+        <input type="checkbox" name="terms" value="Accepted" required>
+        I agree to the Terms & Conditions
+        <br><br>
+
+        <!-- Register Button -->
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>

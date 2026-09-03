@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Job Application Form</title>
+    </head>
+
+    <body>
+        <h1>Software Company-Job Application Form</h1>
+
+        <form>
+
+            <label>Full Name:</label>
+            <input type="text" name="FullName" placeholder="Enter Your FullName" required>
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
+            <br><br>
+            
+            <label>Mobile:</label>
+            <input type="tel" name="Mobile" placeholder="Enter Your Mobile No." required>
+            <br><br>
+
+            <label>Date-Of-Birth</label>
+            <input type="date" name="dob" required>
+            <br><br>
+
+            <label>Gender:</label>
+            <br><br>
+            <input type="radio" name="Gender" value="Male" required>
+            <label>Male</label>
+
+            <input type="radio" name="Gender" value="female" required>
+            <label>female</label>
+
+            <input type="radio" name="Gender" value="Other" required>
+            <label>Other</label>
+            <br><br>
+
+            <label>Qualification:</label>
+            
+            <select name="qualification" required>
+                <option value="">--Select Qualification--</option>
+                <option value="BSC CS">BSC Computer Science</option>
+                <option value="B.tech">B.Tech</option>
+                <option value="MCA">MCA</option>
+                <option value="M.tech">M.Tech</option>
+            </select>
+            <br><br>
+
+            <label>Experience(Years):</label>
+            <input type="number" name="Experience" min="0" max="30" placeholder="Enter Your Experience" required>
+            <br><br>
+
+            <label>Skills:</label>
+            <input type="checkbox" name="skills" value="Java">
+            <label>Java</label>
+
+            <input type="checkbox" name="skills" value="HTML">
+            <label>HTML</label>
+
+            <input type="checkbox" name="skills" value="CSS">
+            <label>CSS</label>
+
+            <input type="checkbox" name="skills" value="JavaScript">
+            <label>JavaScript</label>
+
+            <input type="checkbox" name="skills" value="SQL">
+            <label>SQL</label>
+            <br><br>
+
+            <label>Preferred Location:</label>
+            <select name="location" required>
+
+                <option value="">--Select Option--</option>
+                <option value="Pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Chennai">Chennai</option>
+            </select>
+            <br><br>
+
+            <label>Emplyoment Type:</label>
+            <br>
+
+            <input type="radio" name="emplyoment" value="Full Time" required>
+            <label>Full Time</label>
+
+            <input type="radio" name="emplyoment" value="Part Time" required>
+            <label>Part Time</label>
+ 
+            <input type="radio" name="emplyoment" value="Internship" required>
+            <label>Internship</label>
+            <br><br>
+
+            <label>Address:</label>
+            <br>
+
+            <textarea name="address" rows="5" cols="40" placeholder="Enter Your Address" required></textarea>
+            <br><br>
+
+            <label>Upload Resume:</label>
+            <input type="file" name="resume" required>
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+    </body>
+</html>

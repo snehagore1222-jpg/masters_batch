@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Registration</title>
+</head>
+
+<body>
+
+    <h1>Customer Registration Form</h1>
+
+    <form>
+
+        <!-- First Name -->
+        <label>First Name:</label>
+        <input type="text" name="firstname" placeholder="Enter your first name" required>
+        <br><br>
+
+        <!-- Last Name -->
+        <label>Last Name:</label>
+        <input type="text" name="lastname" placeholder="Enter your last name" required>
+        <br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Password -->
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Create a password" required>
+        <br><br>
+
+        <!-- Mobile -->
+        <label>Mobile:</label>
+        <input type="tel" name="mobile" placeholder="Enter your mobile number" required>
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <br>
+        <input type="radio"  name="gender" value="Male" required>
+        <label>Male</label>
+
+        <input type="radio" name="gender" value="Female">
+        <label>Female</label>
+
+        <input type="radio" name="gender" value="Other">
+        <label>Other</label>
+        <br><br>
+
+        <!-- Date of Birth -->
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required>
+        <br><br>
+
+        <!-- Address -->
+        <label>Address:</label>
+        <br>
+        <textarea name="address" rows="5" cols="40" placeholder="Enter your complete address" required></textarea>
+        <br><br>
+
+        <!-- City -->
+        <label>City:</label>
+        <input type="text" name="city" placeholder="Enter your city" required>
+        <br><br>
+
+        <!-- State -->
+        <label>State:</label>
+
+        <select name="state" required>
+            <option value="">-- Select State --</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Gujarat">Gujarat</option>
+        </select>
+        <br><br>
+
+        <!-- Pincode -->
+        <label>Pincode:</label>
+        <input type="number" name="pincode" placeholder="Enter 6 digit pincode" min="100000" max="999999" required>
+        <br><br>
+
+        <!-- Terms and Conditions -->
+        <input type="checkbox" name="terms" value="accepted" required>
+        <label>I agree to the Terms & Conditions</label>
+        <br><br>
+
+        <!-- Register Button -->
+        <input type="submit" value="Register">
+
+    </form>
+</body>
+</html>
